@@ -20,7 +20,7 @@ const ConfigurationController = () => (
         onToggleShowLeftNavbar(event.target.value)
       }
       const onChangeRightNavbar = event => {
-        onChangeRightNavbar(event.target.value)
+        onToggleShowRightNavbar(event.target.value)
       }
 
       return (
@@ -35,7 +35,7 @@ const ConfigurationController = () => (
                   type="checkbox"
                   id="content"
                 />
-                <label className="label-text" htmlFor="container">
+                <label className="label-text" htmlFor="content">
                   Content
                 </label>
               </div>
